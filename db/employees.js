@@ -1,3 +1,4 @@
+
 const employees = [
   { id: 1, name: "Carolynn McGinlay" },
   { id: 2, name: "Lodovico Filon" },
@@ -11,12 +12,14 @@ const employees = [
   { id: 10, name: "Gwen Grollmann" },
 ];
 
-export function getEmployees(){
-  return employees
-}
+export default employees
 
-export function addEmployees(em){
-  employees.push(em)
-}
+//  function getEmployees(){
+//   return employees
+// }
 
-export default employees;
+// function addEmployees(em){
+//   employees.push(em)
+// }
+
+// module.exports = {getEmployees, addEmployees}
